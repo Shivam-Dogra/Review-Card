@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(185, 222, 240);
+    gap:20px;
+}
+
+
+
+h1{
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(4, 4, 71);
+    border-bottom: 3px solid rgb(4, 4, 71);
+}
+
+
+.cards{
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 4px 8px rgb(123, 197, 234, 0.70); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.name{
+    font-weight: 900;
+}
+
+.job{
+    font-weight: 600;
+}
+
+.name,.job,.review{
+    color: rgb(4, 4, 71);
+    margin-top: 5px;
+    line-height: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.review{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    margin-top: 25px;
+}
